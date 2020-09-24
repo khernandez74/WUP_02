@@ -50,7 +50,8 @@ favstats(VitC~Cult,data=veggy)
 ```{r}
 t.test(VitC~Cult,data=veggy)
 ```
-
+p=.00000003405
 # Discussion and Conclusion
 
 <!--Discussion and conclusion here.  If you found a relationship be sure to consider whether the relationship occurs because one of the variavbles causes the other, or whether they perhasps are related for some other reason.  Watch the chapter 6 videos from the GeorgeTown videos collection.!-->
+As we can see the P value is <0.05 which mean that the null   hypothesis can be rejected and it can be said the the true difference in the mean is not equal to 0 and when we look at the confidence interval the whole interval is below 0 which means that the first population mean seems to be smaller than the second population mean
